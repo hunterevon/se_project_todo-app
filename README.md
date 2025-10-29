@@ -38,4 +38,4 @@ This to-do list web app is designed to help users manage daily tasks with ease a
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- https://hunterevon.github.io/se_project_todo-app/
