@@ -14,7 +14,7 @@ class Todo {
     });
   }
 
-  _todoDueDates() {
+  _setDueDateText() {
     const dueDate = new Date(this._data.date);
     if (!isNaN(dueDate)) {
       this._todoDate.textContent = `Due: ${dueDate.toLocaleString("en-US", {
@@ -46,7 +46,7 @@ class Todo {
 
     this._generateCheckboxEl();
     this._setEventListeners();
-    this._todoDueDates();
+    this._setDueDateText();
 
     return this._todoElement;
   }
